@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<title>The Big Bank</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/stílus-kalkulátorok.css">
+<script src="js/kód.js"></script>
+</head>
+<body>
+    
+    <div class="pos-f-t">
+        <nav class="navbar navbar-dark bg-dark">
+            <ul>
+                <li><a href="../index.html">Kezdőlap</a></li>
+                <li><a href="../tovabbilapok/Kalkulátorok.html" id="active">Kalkulátorok</a></li>
+                <li><a href="../tovabbilapok/Szolgáltatások.html">Szolgáltatások</a></li>
+                <li><a href="../tovabbilapok/Tanácsadás.html">Tanácsadás</a></li>
+              </ul>  
+          </nav>
+      </div>
+
+      <div id="fodoboz">
+
+        <div id="cimsor">
+        <h1 id="cim">Kalkulátorok</h1>
+        <hr>
+</div>
+
+<h3>Hitelkalkulátor</h3>
+<form>
+    <select>
+        <option value="">AED</option>
+        <option value="ARS">ARS</option>
+
+       
+     </select>
+     <input type="number" />
+     <input type="range" min="100000" max="30000000" >
+     <p></p>
+</form>
+
+<h3>Kamatkalkulátor</h3>
+<form>
+    <select id="mirol" onchange="kiszamol();">
+        <option value="">AED</option>
+        <option value="ARS">ARS</option>
+    </select>
+
+     <input type="number" />
+     <input type="range" min="100000" max="100000000" >
+     <p></p>
+</form>
+        </div>
+
+</body>
+</html>

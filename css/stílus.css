@@ -1,0 +1,119 @@
+body{
+    /*background-color: rgb(167,216,177);*/
+    background-color: white;
+    
+}
+
+#fejlecnev{
+    color: white;
+    margin-right: 10px;
+    height: 100px;
+   
+}
+#options{
+    width: 30px;
+    height: 30px;
+}
+
+.navbar{
+position: fixed;
+width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  li a:hover {
+    background-color: #111;
+    color: white;
+  }
+  ul li a{
+    text-decoration: none;
+  }
+ 
+  #active{
+    background-color: #111;
+    color: white;
+  }
+
+  #kepesdoboz{
+
+    background-image: url(../img/kezdokepdoboz.jpg);
+    background-position:initial;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-top: 0;
+
+  }
+
+  #kepesdoboz h1{
+    font-family: 'Dosis', sans-serif;
+    color:white;
+    font-size: 55px;
+    text-align: center;
+    padding-top: 100px;
+    text-shadow: 2px 2px black;
+  }
+
+  #kepesdoboz #dobozBal{
+float: left;
+
+  }
+
+  #dobozJobb{
+    float: right;
+    width: 400px;
+    height: 400px;
+ 
+  }
+ 
+  .card{
+    z-index: 1;
+    margin-top: 100px;
+    border-radius: 20px;
+    
+  }
+
+  #dobozalso{
+    width: 500px;
+    height: 500px;
+    margin-left: 1300px;
+  
+  }
+
+  #dobozfelso{
+    height: 100px;
+    width: 500px;
+    height: 200px;
+    margin-left: 1300px;
+  }
+
+  .card{
+    background-color: rgb(255, 255, 255, 0.7);
+  }
+  
+
+  
+
+
+
+
+

@@ -1,0 +1,191 @@
+body{
+  background-color: white;
+}
+
+
+.navbar{
+position: fixed;
+width: 100%;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
+  color: white;
+}
+ul li a{
+  text-decoration: none;
+}
+
+#active{
+  background-color: #111;
+  color: white;
+}
+
+
+#kalkulatordobozelso{
+  width: 600px;
+  height: 100%;
+  float: right;
+  border-left: brown 2px solid;
+}
+
+.card{
+  margin-top: 80px;
+  margin-right: -100px;
+z-index: -1;
+float: right;
+}
+
+#kepesdoboz{
+
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  padding: 100px;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 80px;
+  }
+
+  hr {
+    border:none;
+    height: 20px;
+     width: 90%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px; 
+  }
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #demo{
+    background-color: rgb(66, 66, 246); 
+    margin-top: 100px;
+    z-index: -1;
+  }
+
+  #dobozreklam{
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  
+
+  }
+
+  #appreklam{
+    width: 1100px;
+    height: 600px;
+    float: left;
+    margin-left: 40px;
+    z-index: 2;
+    margin-top: 40px;
+
+    -webkit-box-shadow: 3px 3px 5px 6px rgb(104, 102, 102);  
+    -moz-box-shadow:    3px 3px 5px 6px rgb(104, 102, 102);  
+    box-shadow:         3px 3px 5px 6px rgb(177, 175, 175);
+  }
+
+  #appreklamkep{
+    background-color: violet;
+    width: 300px;
+    float: left;
+    margin-left: 40px;
+    
+
+  }
+
+  #reklamkep{
+    width: 390px;
+    height: auto;
+    margin-top:10px;
+    float: left;
+    margin-left: 20px;
+    
+  }
+
+  h3{
+    float: right;
+    font-size: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    font-family: 'Dosis', sans-serif;
+    
+  }
+
+
+  #lekötes{
+    margin-top: 100px;
+  }
+
+#befektetes{
+  width: 100%;
+}
+
+#csomagok{
+  width: 100%;
+  margin-top: 30px;
+}
+
+.card-deck{
+  width: 100%;
+
+}
+
+#alsoresz{
+width: 100%;
+height: 200px ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
